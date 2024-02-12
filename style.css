@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+main {
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgb(40, 39, 2);
+  box-shadow: 10px 10px 15px white;
+}
+
+input,
+button,
+#output {
+  width: 22vw;
+  height: 4vh;
+}
+
+#output {
+  background-color: chocolate;
+}
